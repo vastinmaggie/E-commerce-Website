@@ -1,0 +1,231 @@
+select{
+    width:100%;
+    background:transparent;
+    border: 1px solid $border-color;
+    box-shadow: none;
+    font-size: $font-md;
+    color: $color-body;
+}
+
+option{
+    font-size: $font-md;
+    border: 0px solid #626262;
+    background: #fff;
+    padding-left: 10px;
+
+}
+.select2-container{
+    max-width: 13px;
+}
+.select2-container--default {
+	.select2-selection--single {
+		background-color: #fff;
+		border-bottom: 3px solid #414648;
+		border-radius: 0;
+		border-right: 0;
+		height: 50px;
+		padding-left: 0;
+		border-top: 0;
+		border-left: 0;
+		font-weight: bold;
+		.select2-selection__rendered {
+			line-height: 50px;
+			font-size: $font-sm;
+			padding: 0;
+			font-family: $font-heading;
+			color: $color-heading;
+		}
+		.select2-selection__arrow {
+			height: 26px;
+			position: absolute;
+			top: 12px;
+			right: 15px;
+			width: 20px;
+		}
+	}  
+}
+
+input{
+    border:1px solid $border-color;
+    border-radius: 10px;
+    height: 64px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: $font-md;
+    width: 100%;
+
+}
+
+
+//pages- contact -form section
+
+textarea {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: none;
+    padding: 10px 10px 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    min-height: 200px;
+}
+textarea {
+    resize: vertical;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+textarea {
+    overflow: auto;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.contact-from-area .contact-form-style button {
+	position: relative;
+    font-size: 17px;
+    font-weight: 300;
+    // padding: 20px 40px;
+	padding-block: 10px;
+    color: #ffffff;
+    border: none;
+	height: 50px;
+	width: 180px;
+	top: 10px;
+	left: 0;
+    background-color: #253D4E;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.input-style input:focus,
+.textarea-style textarea:focus{
+	border-color: $color-brand;
+	outline: none;
+}
+
+
+//this form is in log in section
+.form-group{
+    margin-bottom: 1rem;
+
+    input{
+        background: #fff;
+        border: 1px solid #ececec;
+        height: 64px;
+        box-shadow: none;
+        padding-left: 20px;
+        font-size: 16px;
+        width: 100%;
+        &:focus {
+			background: transparent;
+			border-color: $border-color-2;
+            outline: none;
+		}
+    }
+}
+.login_footer {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.security-code{
+    display: inline-block;
+    border-radius: 10px;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 40px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: $border-color-2;
+
+    b{
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+.text-new {
+    color: $color-brand;
+}
+.text-hot{
+    color: $color-hot;
+}
+.text-sale{
+    color: $color-sale;
+}
+.text-best{
+    color:$color-best;
+}
+
+.custome-radio .form-check-input,
+.custome-checkbox .form-check-input {
+	display: none;
+}
+.custome-checkbox{
+    .form-check-label{
+        position: relative;
+        cursor: pointer;
+        color: #687188;
+        padding: 0;
+        vertical-align: middle;
+
+        &::before{
+            content:'';
+            border: 2px solid #ced4da;
+            height: 17px;
+            width: 17px;
+            margin: 0 8px 0 0;
+            display: inline-block;
+            vertical-align: middle;
+            border-radius: 2px;
+
+        }
+    }
+}
+
+
+.btn-heading, button.btn-heading[type=submit]{
+    position: relative;
+    background-color: #253D4E;
+    border-color: #253D4E;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 40px;
+    left: 10px;
+    font-size: 17px;
+    font-family: $font-heading;
+    border-radius: 10px;
+
+    &:hover{
+        // transform: translateY(-5px);
+        background-color: $color-brand;
+    }
+}
+
+form{
+    .btn{
+        position: relative !important;
+        
+        &.btn-fill-out{
+            left: 10px;
+            margin-top: 3F0px;
+            padding: 15px 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            transform: none;
+        }
+    }
+}

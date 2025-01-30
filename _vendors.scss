@@ -1,0 +1,103 @@
+//vendors
+
+.vendor-wrap{
+    position: relative;
+    background-color: #fff;
+    border: 1px solid $border-color;
+    border-radius: 15px;
+    overflow: hidden;
+    transition-duration: 0.2s;
+    
+
+    &:hover{
+        box-shadow: $box-shadown-2;
+        border: 1px solid $border-color-2;
+        transition-duration: 0.2s;
+    }
+    .vendor-img-action-wrap{
+        padding: 25px 25px 0 25px;
+        img{
+            max-width: 144px;
+        }
+    }
+    .vendor-content-wrap {
+        padding: 20px 20px 30px 20px;
+        h4 { 
+            width: 150%;
+            a {
+                color: $color-heading;
+                &:hover {
+                    color: $color-brand;
+                }
+            }
+        }
+        .total-product{
+            position: relative;
+            display: inline-block;
+            padding: 6px 20px 6px 20px;
+            border-radius: 4px;
+            background-color: #def9ec;
+            font-size: 12px;
+            font-weight: 700;
+            color: $color-brand;
+            min-width: 123px;
+        }
+        .vendor-info{
+            margin-left: -23px;
+        }
+    }
+    .product-badges.product-badges-position{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 9;
+
+        span{
+            display: inline-block;
+            font-size: 12px;
+            line-height: 1;
+            border-radius: 0px 10px 0px 20px;
+            color: #fff;
+            padding: 9px 20px 10px 20px;
+            background-color: $color-brand;
+            &.hot{
+                background-color: $color-hot;
+            }
+            &.new{
+                background-color: $color-brand;
+            }
+            &.sale{
+                background-color: $color-sale;
+            }
+            &.best{
+                background-color: $color-best;
+            }
+        }
+    }
+
+}
+
+.page-content{
+    form{
+        button {
+            position: absolute;
+            // right: 0px;
+            top: 64%;
+            left: 65%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            background-color: transparent;
+            padding: 0;
+            border: none;
+            font-size: 25px;
+            color: #333;
+            height: 100%;
+            padding: 5px 17px;
+
+            &:hover{
+                background-color: $color-brand;
+            }
+        }
+    }
+}

@@ -1,0 +1,197 @@
+//checkout
+
+
+.checkout{
+    padding-left: 0px;
+    margin-left: -5%;
+}
+.toggle_info {
+    padding: 12px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+main{
+    a{
+        text-decoration: none;
+        color: $color-brand;
+
+        &:hover{
+            color: $color-brand-2;
+        }
+    }
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.login_form .panel-body, .coupon_form .panel-body {
+    border: 1px solid #ececec;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+//coupon section
+
+.apply-coupon {
+	display: flex;
+	input {
+		height: 51px;
+		border-radius: 10px 0 0 10px;
+		background-image: url('/assets/imgs/theme/icons/coupon.png');
+		background-position: 20px center;
+		background-repeat: no-repeat;
+		padding-left: 50px;
+	}
+	button {
+		min-width: 150px;
+		height: 51px;
+		border-radius: 0 10px 10px 0;
+		background-color: $color-heading;
+		&:hover {
+			background-color: $color-brand;
+		}
+	}
+}
+
+.shipping_calculator .custom_select .select2-container--default .select2-selection--single {
+    border-radius: 10px;
+    height: 64px;
+    line-height: 64px;
+}
+.custom_select .select2-container--default .select2-selection--single {
+    border: 1px solid #ececec;
+    width: 380px;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border-bottom: 3px solid #414648;
+    border-radius: 0;
+    border-right: 0;
+    height: 50px;
+    padding-left: 0;
+    border-top: 0;
+    border-left: 0;
+    font-weight: bold;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.shipping_calculator .custom_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 64px;
+}
+.custom_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+    font-size: 14px;
+    padding-left: 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.shipping_calculator .custom_select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 50%;
+    right: 14px;
+    transform: translateY(-50%);
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    width: 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #bbb transparent transparent transparent;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    height: 0;
+    left: 370%;
+    // margin-left: 20%;
+    right: 0px;
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+.cart-totals{
+    h4, h6{
+        font-family: "Quicksand", sans-serif;
+        color: #253D4E;
+        font-weight: 700;
+        line-height: 1.2;
+        
+    }
+    h4{
+        font-size: 24px;
+    }
+    .order_table table .product-thumbnail img {
+        max-width: 120px;
+        border-radius: 15px;
+        border: 1px solid #ececec;
+        padding: 5px;
+    }
+    .pr-20 {
+        // padding-right: 20px !important;
+        width: 70px;
+        margin-left: -10px;
+    }
+    table{
+        td{
+            padding-left: 10px;
+            h6{
+                // margin-top: -30%;
+            }   
+            .product-rate-cover{
+                margin-top: -20%;
+            }    
+    
+        }
+        
+    }
+    
+}
+tbody{
+    padding-left: 0px;
+}
+table{
+    td{
+        padding-left: 10px;
+        h6{
+            // margin-top: -30%;
+        }   
+        .product-rate-cover{
+            margin-top: -10%;
+        }    
+
+    }
+    
+}
+
